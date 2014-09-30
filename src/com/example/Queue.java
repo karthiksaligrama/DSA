@@ -37,12 +37,12 @@ public class Queue<T> {
 	}
 
 	public static void main(String[] args) {
-		Queue<String> q = new Queue<String>("karthik");
-		q.enqueue("ankita");
-		q.enqueue("anirudh");
-		q.enqueue("shreeram");
-		q.enqueue("akash");
-		q.enqueue("usha");
+		Queue<String> q = new Queue<String>("sdfsdfdqw");
+		q.enqueue("asdas");
+		q.enqueue("asdasd");
+		q.enqueue("asdas");
+		q.enqueue("asd");
+		q.enqueue("asdasda");
 
 		System.out.println(q.dequeue());
 		System.out.println(q.dequeue());
