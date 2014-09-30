@@ -61,10 +61,10 @@ public class BinarySearchTree<T extends Comparable<T>> {
 	}
 
 	public static void main(String[] args) {
-		BinarySearchTree<String> bst = new BinarySearchTree<String>("shreeram");
-		bst.insert("karthik");
-		bst.insert("anirudh");
-		bst.insert("usha");
-		bst.insert("ankita");
+		BinarySearchTree<String> bst = new BinarySearchTree<String>("10");
+		bst.insert("9");
+		bst.insert("8");
+		bst.insert("7");
+		bst.insert("6");
 	}
 }
