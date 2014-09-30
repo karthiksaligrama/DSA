@@ -32,12 +32,12 @@ public class Stack<T extends Comparable<T>> {
 
 	public static void main(String[] args) {
 		Stack<String> s = new Stack<String>();
-		s.push("karthik");
-		s.push("ankita");
-		s.push("anirudh");
-		s.push("akash");
-		s.push("shreeram");
-		s.push("usha");
+		s.push("qejlqkjer");
+		s.push("sdlfkajsd");
+		s.push("qweqweq");
+		s.push("welrkjwlejr");
+		s.push("werweqweqw");
+		s.push(",sdmn,mn");
 
 		s.sort();
 
