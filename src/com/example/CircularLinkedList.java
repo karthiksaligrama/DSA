@@ -1,6 +1,10 @@
 package com.example;
 
  
+ /**
+  * ref: http://umairsaeed.com/2011/06/23/finding-the-start-of-a-loop-in-a-circular-linked-list/
+  */
+ 
 public class CircularLinkedList{
   
   
@@ -57,7 +61,7 @@ public class CircularLinkedList{
    *            list to be tested
    * @return the node at the start of the loop if there is a loop, null
    * otherwise
-   * ref: http://umairsaeed.com/2011/06/23/finding-the-start-of-a-loop-in-a-circular-linked-list/
+   * 
    */
 
   public static IntegerNode findLoopStart(LinkedList linkedList) {
