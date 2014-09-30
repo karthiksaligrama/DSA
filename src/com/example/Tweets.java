@@ -28,16 +28,11 @@ public class Tweets {
 
 	public void initializeNames() {
 		names = new ArrayList<String>();
-		names.add("Rahul Gandhi");
-		names.add("Himesh Reshammiya");
-		names.add("Narendra Modi");
-		names.add("Karthik Saligrama");
-
+		names.add("lkasjdfljasdflj");
 	}
 
 	public static void main(String[] args) {
-		String tweet = "Sadly even Himesh Reshammiya's numbers"
-				+ " are looking better than Rahul Gandhi's . #Elections2014";
+		String tweet = "asdfklasjdl aslkdjflsajd lkasjdfljasdflj alkdjflasjdf";
 
 		Tweets t = new Tweets();
 		t.initializeNames();
