@@ -92,8 +92,7 @@ public class TweetsUsingTrie {
 	}
 
 	public static void main(String[] args) {
-		String tweet = "Sadly even Himesh Reshammiya's numbers"
-				+ " are looking better than Rahul Gandhi's . #Elections2014";
+		String tweet = "asdfklasjdl aslkdjflsajd lkasjdfljasdflj alkdjflasjdf";
 
 		String[] tweetSplit = tweet.split(" ");
 
@@ -104,10 +103,7 @@ public class TweetsUsingTrie {
 		}
 
 		List<String> names = new ArrayList<String>();
-		names.add("Rahul");
-		names.add("Himesh");
-		names.add("Narendra");
-		names.add("Karthik");
+		names.add("lkasjdfljasdflj");
 
 		for (String s : names) {
 			if (trie.search(s)) {
